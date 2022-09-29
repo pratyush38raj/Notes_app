@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.add-icon{
+    cursor: pointer;
+}
+
+.sidebar_list{
+    display: flex;
+    position: relative;
+    right: 40%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 0;
+    transition: 300ms;
+}
+
+.sidebar_list_active{
+    height: 600px;
+}
+
+.sidebar_list_item{
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    list-style: none;
+    
+}

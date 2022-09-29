@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+extraMetadata:
+  main: build/electron.js
+appId: notes.app
+win:
+  icon: build/icon.png
+extends: react-cra
+electronVersion: 20.1.4
